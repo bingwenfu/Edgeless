@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D50D2A21D56889A00951EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2A11D56889A00951EBA /* AppDelegate.swift */; };
+		1D50D2A41D56889A00951EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D50D2A31D56889A00951EBA /* Assets.xcassets */; };
+		1D50D2A71D56889A00951EBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D50D2A51D56889A00951EBA /* MainMenu.xib */; };
+		1D50D2C51D568AEC00951EBA /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2C41D568AEC00951EBA /* NJKWebViewProgressView.m */; };
+		1D50D2CB1D568BEA00951EBA /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2C71D568BEA00951EBA /* BookmarkView.swift */; };
+		1D50D2CC1D568BEA00951EBA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2C81D568BEA00951EBA /* SearchView.swift */; };
+		1D50D2CD1D568BEA00951EBA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2C91D568BEA00951EBA /* WebView.swift */; };
+		1D50D2CE1D568BEA00951EBA /* WebWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2CA1D568BEA00951EBA /* WebWindow.swift */; };
+		1D50D2D21D568BF400951EBA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2CF1D568BF400951EBA /* DataManager.swift */; };
+		1D50D2D31D568BF400951EBA /* HelperFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2D01D568BF400951EBA /* HelperFun.swift */; };
+		1D50D2D41D568BF400951EBA /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2D11D568BF400951EBA /* ImageManager.swift */; };
+		1D50D2D81D568C7000951EBA /* BookmarkCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D50D2D61D568C7000951EBA /* BookmarkCellView.xib */; };
+		1D50D2D91D568C7000951EBA /* WebWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D50D2D71D568C7000951EBA /* WebWindow.xib */; };
+		1D50D2DB1D568CD600951EBA /* BookmarkCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D50D2DA1D568CD600951EBA /* BookmarkCellView.swift */; };
+		BAE8ADF8B8C2DEBBE38D8391 /* Pods_Edgeless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F77E83CB74B32D6895F5D42 /* Pods_Edgeless.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D50D29E1D56889A00951EBA /* Edgeless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgeless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D50D2A11D56889A00951EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D50D2A31D56889A00951EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D50D2A61D56889A00951EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1D50D2A81D56889A00951EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D50D2B01D568A0200951EBA /* Edgeless-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Edgeless-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D50D2C31D568AEC00951EBA /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJKWebViewProgressView.h; path = "Edgeless/Source/Third-Party/NJKWebViewProgressView.h"; sourceTree = "<group>"; };
+		1D50D2C41D568AEC00951EBA /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJKWebViewProgressView.m; path = "Edgeless/Source/Third-Party/NJKWebViewProgressView.m"; sourceTree = "<group>"; };
+		1D50D2C71D568BEA00951EBA /* BookmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkView.swift; path = Edgeless/Source/View/BookmarkView.swift; sourceTree = "<group>"; };
+		1D50D2C81D568BEA00951EBA /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = Edgeless/Source/View/SearchView.swift; sourceTree = "<group>"; };
+		1D50D2C91D568BEA00951EBA /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = Edgeless/Source/View/WebView.swift; sourceTree = "<group>"; };
+		1D50D2CA1D568BEA00951EBA /* WebWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebWindow.swift; path = Edgeless/Source/View/WebWindow.swift; sourceTree = "<group>"; };
+		1D50D2CF1D568BF400951EBA /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Edgeless/Source/Utility/DataManager.swift; sourceTree = "<group>"; };
+		1D50D2D01D568BF400951EBA /* HelperFun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelperFun.swift; path = Edgeless/Source/Utility/HelperFun.swift; sourceTree = "<group>"; };
+		1D50D2D11D568BF400951EBA /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageManager.swift; path = Edgeless/Source/Utility/ImageManager.swift; sourceTree = "<group>"; };
+		1D50D2D61D568C7000951EBA /* BookmarkCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookmarkCellView.xib; path = Edgeless/Xib/BookmarkCellView.xib; sourceTree = "<group>"; };
+		1D50D2D71D568C7000951EBA /* WebWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebWindow.xib; path = Edgeless/Xib/WebWindow.xib; sourceTree = "<group>"; };
+		1D50D2DA1D568CD600951EBA /* BookmarkCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkCellView.swift; path = Edgeless/Source/View/BookmarkCellView.swift; sourceTree = "<group>"; };
+		1F77E83CB74B32D6895F5D42 /* Pods_Edgeless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edgeless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20612483F7EE0500DEBC7B82 /* Pods-Edgeless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edgeless.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Edgeless/Pods-Edgeless.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF59B4DC4D3F9697AF6D1F2 /* Pods-Edgeless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edgeless.release.xcconfig"; path = "Pods/Target Support Files/Pods-Edgeless/Pods-Edgeless.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D50D29B1D56889A00951EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE8ADF8B8C2DEBBE38D8391 /* Pods_Edgeless.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D50D2951D56889A00951EBA = {
+			isa = PBXGroup;
+			children = (
+				1D50D2AE1D56898A00951EBA /* Souce */,
+				1D50D2D51D568C4C00951EBA /* Xib */,
+				1D50D2A01D56889A00951EBA /* Edgeless */,
+				1D50D29F1D56889A00951EBA /* Products */,
+				A50BA42004CFBD44A17CE35C /* Pods */,
+				48F999B5C426BFD329BF7750 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D50D29F1D56889A00951EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D29E1D56889A00951EBA /* Edgeless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D50D2A01D56889A00951EBA /* Edgeless */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D2A11D56889A00951EBA /* AppDelegate.swift */,
+				1D50D2A31D56889A00951EBA /* Assets.xcassets */,
+				1D50D2A51D56889A00951EBA /* MainMenu.xib */,
+				1D50D2A81D56889A00951EBA /* Info.plist */,
+				1D50D2B01D568A0200951EBA /* Edgeless-Bridging-Header.h */,
+			);
+			path = Edgeless;
+			sourceTree = "<group>";
+		};
+		1D50D2AE1D56898A00951EBA /* Souce */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D2C61D568B8E00951EBA /* View */,
+				1D50D2AF1D5689B100951EBA /* Utility */,
+				1D50D2C21D568AC400951EBA /* Third-Party */,
+			);
+			name = Souce;
+			sourceTree = "<group>";
+		};
+		1D50D2AF1D5689B100951EBA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D2CF1D568BF400951EBA /* DataManager.swift */,
+				1D50D2D01D568BF400951EBA /* HelperFun.swift */,
+				1D50D2D11D568BF400951EBA /* ImageManager.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		1D50D2C21D568AC400951EBA /* Third-Party */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D2C31D568AEC00951EBA /* NJKWebViewProgressView.h */,
+				1D50D2C41D568AEC00951EBA /* NJKWebViewProgressView.m */,
+			);
+			name = "Third-Party";
+			sourceTree = "<group>";
+		};
+		1D50D2C61D568B8E00951EBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D2DA1D568CD600951EBA /* BookmarkCellView.swift */,
+				1D50D2C71D568BEA00951EBA /* BookmarkView.swift */,
+				1D50D2C81D568BEA00951EBA /* SearchView.swift */,
+				1D50D2C91D568BEA00951EBA /* WebView.swift */,
+				1D50D2CA1D568BEA00951EBA /* WebWindow.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1D50D2D51D568C4C00951EBA /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				1D50D2D61D568C7000951EBA /* BookmarkCellView.xib */,
+				1D50D2D71D568C7000951EBA /* WebWindow.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		48F999B5C426BFD329BF7750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F77E83CB74B32D6895F5D42 /* Pods_Edgeless.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50BA42004CFBD44A17CE35C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20612483F7EE0500DEBC7B82 /* Pods-Edgeless.debug.xcconfig */,
+				6BF59B4DC4D3F9697AF6D1F2 /* Pods-Edgeless.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D50D29D1D56889A00951EBA /* Edgeless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D50D2AB1D56889A00951EBA /* Build configuration list for PBXNativeTarget "Edgeless" */;
+			buildPhases = (
+				83BC878869B397E862D824F7 /* Check Pods Manifest.lock */,
+				1D50D29A1D56889A00951EBA /* Sources */,
+				1D50D29B1D56889A00951EBA /* Frameworks */,
+				1D50D29C1D56889A00951EBA /* Resources */,
+				0668C6565A652DC7803C862D /* Embed Pods Frameworks */,
+				511E4E013410AB9166546328 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Edgeless;
+			productName = Edgeless;
+			productReference = 1D50D29E1D56889A00951EBA /* Edgeless.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D50D2961D56889A00951EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bingwen Fu";
+				TargetAttributes = {
+					1D50D29D1D56889A00951EBA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D50D2991D56889A00951EBA /* Build configuration list for PBXProject "Edgeless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D50D2951D56889A00951EBA;
+			productRefGroup = 1D50D29F1D56889A00951EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D50D29D1D56889A00951EBA /* Edgeless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D50D29C1D56889A00951EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D50D2D91D568C7000951EBA /* WebWindow.xib in Resources */,
+				1D50D2A41D56889A00951EBA /* Assets.xcassets in Resources */,
+				1D50D2D81D568C7000951EBA /* BookmarkCellView.xib in Resources */,
+				1D50D2A71D56889A00951EBA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0668C6565A652DC7803C862D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Edgeless/Pods-Edgeless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511E4E013410AB9166546328 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Edgeless/Pods-Edgeless-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83BC878869B397E862D824F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D50D29A1D56889A00951EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D50D2CE1D568BEA00951EBA /* WebWindow.swift in Sources */,
+				1D50D2CC1D568BEA00951EBA /* SearchView.swift in Sources */,
+				1D50D2CD1D568BEA00951EBA /* WebView.swift in Sources */,
+				1D50D2D41D568BF400951EBA /* ImageManager.swift in Sources */,
+				1D50D2DB1D568CD600951EBA /* BookmarkCellView.swift in Sources */,
+				1D50D2D31D568BF400951EBA /* HelperFun.swift in Sources */,
+				1D50D2D21D568BF400951EBA /* DataManager.swift in Sources */,
+				1D50D2CB1D568BEA00951EBA /* BookmarkView.swift in Sources */,
+				1D50D2A21D56889A00951EBA /* AppDelegate.swift in Sources */,
+				1D50D2C51D568AEC00951EBA /* NJKWebViewProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D50D2A51D56889A00951EBA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D50D2A61D56889A00951EBA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D50D2A91D56889A00951EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D50D2AA1D56889A00951EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D50D2AC1D56889A00951EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20612483F7EE0500DEBC7B82 /* Pods-Edgeless.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Edgeless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bingwen-Fu.Edgeless";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Edgeless/Edgeless-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D50D2AD1D56889A00951EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF59B4DC4D3F9697AF6D1F2 /* Pods-Edgeless.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Edgeless/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bingwen-Fu.Edgeless";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Edgeless/Edgeless-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D50D2991D56889A00951EBA /* Build configuration list for PBXProject "Edgeless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D50D2A91D56889A00951EBA /* Debug */,
+				1D50D2AA1D56889A00951EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D50D2AB1D56889A00951EBA /* Build configuration list for PBXNativeTarget "Edgeless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D50D2AC1D56889A00951EBA /* Debug */,
+				1D50D2AD1D56889A00951EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D50D2961D56889A00951EBA /* Project object */;
+}

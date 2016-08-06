@@ -1,0 +1,6 @@
+framework module Pods_Edgeless {
+  umbrella header "Pods-Edgeless-umbrella.h"
+
+  export *
+  module * { export * }
+}
