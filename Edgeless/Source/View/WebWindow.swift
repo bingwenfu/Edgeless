@@ -151,20 +151,18 @@ class WebWindow: NSWindow {
             case 1048848:
                 rightCommandEventWithKey(key, event: event)
                 return
-            case 11010336:
-                optionEventWithKeycode(event.keyCode, event: event)
+            case 10617090:
+                shiftEventWithKeycode(event.keyCode, event: event)
                 return
-                //case 524576, 524608:
-                //    optionEventWithKey(key, keycode: event.keyCode, event: event)
-            //    return
             default:
+                
                 break
             }
         }
         super.sendEvent(event)
     }
     
-    func optionEventWithKeycode(keycode: UInt16, event: NSEvent) {
+    func shiftEventWithKeycode(keycode: UInt16, event: NSEvent) {
         let map : [UInt16:String] = [
             123 : "left",
             124 : "right",
