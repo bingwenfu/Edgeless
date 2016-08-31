@@ -33,7 +33,7 @@ class WebWindow: NSWindow {
             webView = WebView(frame: v.bounds)
             webView.autoresizingMask = [.ViewHeightSizable, .ViewWidthSizable]
             webView.delegate = self
-            //webView.customUserAgent = "firefox"
+            webView.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
             
             let h:CGFloat = 50.0
             let y = v.frame.height-h
