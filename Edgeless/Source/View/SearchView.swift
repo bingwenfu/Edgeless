@@ -126,6 +126,8 @@ class SearchView: NSView, NSTextFieldDelegate {
         } else if s.hasPrefix("www.") || s.hasPrefix("http") {
             let url = s.hasPrefix("http") ? s : "http://" + s
             delegate.setWebWithURL(url)
+        } else if s.hasPrefix("file://") {
+            delegate.setWebWithURL(s)
         } else {
             delegate.setWebWithURL("https://www.youtube.com/results?search_query=" + s)
         }
